@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el header */
+.header {
+    background-color: #df354c;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    font-size: 24px;
+}
+
+/* Estilos para la sección de perfil */
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 20px;
+    text-align: center;
+    background-color: white; 
+    color: black;
+}
+
+.perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.perfil h2 {
+    color: #4CAF50;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.perfil p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.perfil .intereses {
+    color: violet; /* Cambia el color de Intereses Personales a azul (#3498db) o el que desees */
+    font-size: 18px; /* Puedes ajustar el tamaño de la fuente si es necesario */
+    margin-top: 10px;
+}
+
+.perfil ol {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.perfil li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+
+/* Estilos para la sección de contacto */
+.contact {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #1026e9;
+    margin-right: 10px;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el footer */
+.footer {
+    background-color: #d64a13;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+    font-size: 14px;
+}
